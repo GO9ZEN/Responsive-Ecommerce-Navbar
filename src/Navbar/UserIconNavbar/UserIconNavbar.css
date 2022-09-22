@@ -1,0 +1,97 @@
+/****************************************/
+/***** USER-ICON-MENU-NAVBAR *****/
+/****************************************/
+.profile-icon-menu-navbar i:hover {
+    color: #e4e4e4;
+}
+
+.profile-icon-menu-navbar:hover {
+    background: #009C77;
+}
+
+.g-and-f:hover {
+    background: #009C77;
+}
+
+.categories-menu-navbar-user {
+    background: #1b1b1b;
+}
+
+/****************************************** COMMON CSS FOR RESPONSIVE MENU AND DEFAULT MENU ******************************************/
+.sidebar-menu {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.profile {
+    height: 100%;
+}
+
+.profile-icon-menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 60px;
+    width: 100%;
+    border: 1px solid #5F9EA0;
+    cursor: pointer;
+}
+
+.profile-icon-menu i {
+    margin-left: 15px;
+    font-size: 40px;
+    color: #E4E4E4;
+    cursor: pointer;
+}
+
+.profile-icon-menu-dot {
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    border-radius: 25px;
+    top: 10px;
+    margin-left: 45px;
+    background: #009C77;
+}
+
+.profile-icon-menu span {
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    width: 130px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.categories-menu {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #5F9EA0;
+}
+
+.topic-category {
+    margin-top: 10px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.topic-category p {
+    margin-left: 15px;
+    font-size: 14px;
+    color: darkgrey;
+}
+
+.categories-menu span {
+    margin-left: 15px;
+    font-size: 18px;
+    color: #E4E4E4;
+}
+
+.g-and-f {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    cursor: pointer;
+}

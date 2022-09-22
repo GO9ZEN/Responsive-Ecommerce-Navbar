@@ -1,0 +1,176 @@
+/****************************************/
+/***** CATEGORIES *****/
+/****************************************/
+.categories-menu-navbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.topic-category-navbar {
+    margin-top: 10px;
+    margin-bottom: 2px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    cursor: default;
+}
+
+.categories-menu-navbar span {
+    margin-left: 15px;
+    font-size: 16px;
+    color: #E4E4E4;
+}
+
+.g-and-f-navbar {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    cursor: pointer;
+}
+
+.g-and-f-navbar:hover {
+    background: #009C77;
+}
+
+.angle-right-category-navbar {
+    position: absolute;
+    margin-left: 220px;
+}
+
+.angle-right-category-navbar i {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/******************************* GYM & FITNESS *******************************/
+.g-and-f-navbar-1 {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    cursor: pointer;
+}
+
+.g-and-f-navbar-1:hover {
+    background: #009C77;
+}
+
+.navbar-2-hover-1 {
+    display: none;
+    position: absolute;
+    left: 248px;
+    top: -1px;
+    background-color: #101010;
+    height: 184px;
+    width: 200px;
+    z-index: 1;
+    list-style: none;
+    text-decoration: none;
+    border: 1px solid #E4E4E4;
+    cursor: default;
+}
+
+.g-and-f-navbar-1:hover .navbar-2-hover-1 {
+    display: block;
+}
+
+.topic-category-navbar {
+    margin-top: 10px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.topic-category-navbar p {
+    margin-left: 15px;
+    font-size: 12px;
+    color: darkgrey;
+}
+
+/******************************* SPORTS *******************************/
+.g-and-f-navbar-2 {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    cursor: pointer;
+}
+
+.g-and-f-navbar-2:hover {
+    background: #009C77;
+}
+
+.navbar-2-hover-2 {
+    display: none;
+    position: absolute;
+    left: 248px;
+    top: -1px;
+    background-color: #101010;
+    height: 184px;
+    width: 200px;
+    z-index: 1;
+    list-style: none;
+    text-decoration: none;
+    border: 1px solid #E4E4E4;
+    cursor: default;
+}
+
+.g-and-f-navbar-2:hover .navbar-2-hover-2 {
+    display: block;
+}
+
+.topic-category-navbar {
+    margin-top: 10px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.topic-category-navbar p {
+    margin-left: 15px;
+    font-size: 12px;
+    color: darkgrey;
+}
+
+/******************************* FOODS & SUPPLIMENTS *******************************/
+.g-and-f-navbar-3 {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    cursor: pointer;
+}
+
+.g-and-f-navbar-3:hover {
+    background: #009C77;
+}
+
+.navbar-2-hover-3 {
+    display: none;
+    position: absolute;
+    left: 248px;
+    top: -1px;
+    background-color: #101010;
+    height: 184px;
+    width: 200px;
+    z-index: 1;
+    list-style: none;
+    text-decoration: none;
+    border: 1px solid #E4E4E4;
+    cursor: default;
+}
+
+.g-and-f-navbar-3:hover .navbar-2-hover-3 {
+    display: block;
+}
+
+.topic-category-navbar {
+    margin-top: 10px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.topic-category-navbar p {
+    margin-left: 15px;
+    font-size: 12px;
+    color: darkgrey;
+}
+
