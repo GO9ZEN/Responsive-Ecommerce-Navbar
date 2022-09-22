@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/responsive-ecommerce-navbar/static/css/main.7951bd4a.css",
+    "main.js": "/responsive-ecommerce-navbar/static/js/main.0cded00b.js",
+    "index.html": "/responsive-ecommerce-navbar/index.html",
+    "main.7951bd4a.css.map": "/responsive-ecommerce-navbar/static/css/main.7951bd4a.css.map",
+    "main.0cded00b.js.map": "/responsive-ecommerce-navbar/static/js/main.0cded00b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7951bd4a.css",
+    "static/js/main.0cded00b.js"
+  ]
+}
